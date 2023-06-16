@@ -47,13 +47,17 @@ article {
 }
 
 aside {
-    flex: 0 0.5 23vw;
+    flex: 0 0 25vw;
     flex-direction: column;
     display: flex;
 }
 
-aside .empty {
+aside .empty.header {
     flex: 1;
+}
+
+aside .empty.footer {
+    flex: 3;
 }
 
 aside .button {
@@ -61,11 +65,18 @@ aside .button {
     display: flex;
 }
 
-aside nav {
-    flex: 3;
+aside ul {
+    flex: 4;
     display: flex;
+    flex-direction: column;
 }
 
+ul li {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
 
 footer {
     flex: 0.1 0.5 1vh;
