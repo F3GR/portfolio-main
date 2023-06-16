@@ -28,7 +28,23 @@ main {
     flex-direction: row;
 }
 
+main > * {
+    flex: 1;
+}
 
+main > .decoration {
+    flex: 0 0 0.5vw;
+}
+
+main > article {
+    flex: 1;
+    padding: 2vw 8vw;
+}
+
+main > aside {
+    flex: 0 0.5 20vw;
+    flex-direction: column;
+}
 
 footer {
     flex: 0.1 0.5 1vh;
