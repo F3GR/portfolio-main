@@ -1,0 +1,23 @@
+* {
+    border: 1px solid red;
+}
+
+body {
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    flex: 0.1 0.5 5vh;
+    display: flex;
+    flex-direction: row; 
+}
+
+header div {
+    flex: 1;
+}
+
+header .search {
+    flex: 1.5;
+}
