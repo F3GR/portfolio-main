@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    flex: 0.1 0.5 5vh;
+    flex: 0.1 0.5 1vh;
     display: flex;
     flex-direction: row; 
 }
@@ -20,4 +20,22 @@ header div {
 
 header .search {
     flex: 1.5;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+footer {
+    flex: 0.1 0.5 1vh;
+    display: flex;
+    flex-direction: row; 
+}
+
+footer div {
+    flex: 1;
 }
