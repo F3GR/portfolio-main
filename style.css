@@ -1,3 +1,5 @@
+/***** LAYOUT AND SIZING *****/
+
 * {
     border: 1px solid red;
 }
@@ -11,11 +13,14 @@ body {
 header {
     flex: 0.1 0.5 1vh;
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
 }
 
 header div {
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header .search {
@@ -36,22 +41,42 @@ main > .decoration {
     flex: 0 0 0.5vw;
 }
 
-main > article {
+article {
     flex: 1;
-    padding: 2vw 8vw;
+    padding: 2vw 10vw 2vw 6vw;
 }
 
-main > aside {
-    flex: 0 0.5 20vw;
+aside {
+    flex: 0 0.5 23vw;
     flex-direction: column;
+    display: flex;
 }
+
+aside .empty {
+    flex: 1;
+}
+
+aside .button {
+    flex: 0 0.5 4vh;
+    display: flex;
+}
+
+aside nav {
+    flex: 3;
+    display: flex;
+}
+
 
 footer {
     flex: 0.1 0.5 1vh;
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
 }
 
 footer div {
     flex: 1;
+    justify-content: center;
+    align-items: center;
 }
+
+/***** DECORATION *****/
