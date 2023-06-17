@@ -91,6 +91,7 @@ aside > .button-header {
     justify-content: center;
     align-items: center;
     border: 1px solid rgb(71, 71, 71);
+    border-top: 0;
 }
 
 .button-header img {
