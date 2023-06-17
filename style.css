@@ -43,7 +43,7 @@ main > .decoration {
     flex: none;
     width: 1px;
     background-color: darkorange;
-    margin: 20px 40px 20px 100px;
+    margin: 60px 40px 60px 100px;
 }
 
 main > * {
@@ -53,6 +53,27 @@ main > * {
 article {
     flex: 1;
     padding: 2vw 10vw 2vw 0;
+}
+
+article > * {
+    margin: 40px 0;
+    color: white;
+}
+
+article > h1, h2, h3 {
+    font-size: 2rem;
+}
+
+section > h2, h3 {
+    font-size: 2rem;
+}
+
+section > p {
+    margin: 10px 0;
+}
+
+section > a {
+    text-decoration: white;
 }
 
 aside {
